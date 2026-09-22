@@ -1,0 +1,57 @@
+# Vivado generated projects and build output
+Vivado_Project/**/.Xil/
+Vivado_Project/*.cache/
+Vivado_Project/*.runs/
+Vivado_Project/*.sim/
+Vivado_Project/*.hw/
+Vivado_Project/*.gen/
+Vivado_Project/*ip_user_files/
+Vivado_Project/*.jou
+Vivado_Project/*.log
+Vivado_Project/*.str
+Vivado_Project/*.pb
+Vivado_Project/*.wdb
+Vivado_Project/*.wcfg
+Vivado_Project/*.dcp
+Vivado_Project/*.bit
+Vivado_Project/*.ltx
+Vivado_Project/*.rpt
+Vivado_Project/*.rpx
+Vivado_Project/*.vdi
+Vivado_Project/usage_statistics_webtalk.*
+Vivado_Project/ip_upgrade.log
+
+# Vivado block-design generated artifacts (keep .bd/.bxml/.xdc/.xci sources)
+Vivado_Project/*.srcs/*/bd/*/hw_handoff/
+Vivado_Project/*.srcs/*/bd/*/hdl/
+Vivado_Project/*.srcs/*/bd/*/synth/
+Vivado_Project/*.srcs/*/bd/*/sim/
+Vivado_Project/*.srcs/*/bd/*/ip/*/synth/
+Vivado_Project/*.srcs/*/bd/*/ip/*/sim/
+Vivado_Project/*.srcs/*/bd/*/ipshared/
+Vivado_Project/*.srcs/*/bd/*/ui/
+
+# Vivado HLS / Vitis HLS generated projects and build output
+vision_filter_HLS/.apc/
+vision_filter_HLS/.settings/
+vision_filter_HLS/solution*/
+vision_filter_HLS/*.log
+vision_filter_HLS/*.jou
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

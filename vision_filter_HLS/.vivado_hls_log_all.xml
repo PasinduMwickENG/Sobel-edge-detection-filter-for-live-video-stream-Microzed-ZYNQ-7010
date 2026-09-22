@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1' (vision_filter/vision_filter.cpp:29:25) in function 'vision_filter' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop because there is nontrivial logic in the loop header." projectName="vision_filter" solutionName="solution1" date="2021-09-22T17:17:36.895+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] 'Loop-1' (vision_filter/vision_filter.cpp:29:25) in function 'vision_filter' is an infinite loop." projectName="vision_filter" solutionName="solution1" date="2021-09-22T17:17:36.725+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

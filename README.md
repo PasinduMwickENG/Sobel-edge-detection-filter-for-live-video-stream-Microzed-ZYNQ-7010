@@ -64,3 +64,6 @@ python Web_cam_stream/stream.py
 
 This opens two windows: the raw webcam feed and the Sobel edge-detected output produced
 by the FPGA.
+
+<img width="673" height="296" alt="image" src="https://github.com/user-attachments/assets/a4b3a321-8380-426f-a25a-bde740208878" />
+

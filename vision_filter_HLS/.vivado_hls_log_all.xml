@@ -2,7 +2,9 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Cannot find any design unit to elaborate.&#xD;&#xA;Error in linking the design.&#xD;&#xA;    while executing&#xD;&#xA;&quot;source D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="vision_filter_HLS" solutionName="solution1" date="2026-09-24T12:55:52.826+0530"/>
+      </synLog>
       <simLog/>
       <mgLog/>
       <packageLog/>
@@ -12,8 +14,8 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1' (vision_filter/vision_filter.cpp:29:25) in function 'vision_filter' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop because there is nontrivial logic in the loop header." projectName="vision_filter" solutionName="solution1" date="2021-09-22T17:17:36.895+0530" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] 'Loop-1' (vision_filter/vision_filter.cpp:29:25) in function 'vision_filter' is an infinite loop." projectName="vision_filter" solutionName="solution1" date="2021-09-22T17:17:36.725+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find source file vision_filter.cpp; skipping it." projectName="vision_filter_HLS" solutionName="solution1" date="2026-09-24T12:55:52.662+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find design file 'vision_filter.cpp'" projectName="vision_filter_HLS" solutionName="solution1" date="2026-09-24T12:55:51.732+0530" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

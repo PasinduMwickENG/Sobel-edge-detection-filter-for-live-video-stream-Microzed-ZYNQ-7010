@@ -29,37 +29,37 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/.apc/.src</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/.apc/.tb</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/solution1/.tcls</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/vision_filter.cpp</name>
 			<type>1</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/vision_filter.cpp</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/vision_filter.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/solution1/solution1.directive</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/solution1/directives.tcl</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>D:/FPGA-Projects/HLS_Projects/vision_filter/solution1/script.tcl</location>
+			<location>D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

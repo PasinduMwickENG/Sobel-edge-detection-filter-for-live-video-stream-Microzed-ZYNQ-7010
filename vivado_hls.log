@@ -1,0 +1,24 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'pasin' on host 'wick' (Windows NT_amd64 version 6.2) on Thu Sep 24 12:55:51 +0530 2026
+INFO: [HLS 200-10] In directory 'D:/FPGA-Projects/Sobel_Filter'
+Sourcing Tcl script 'D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/csynth.tcl'
+INFO: [HLS 200-10] Opening project 'D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS'.
+WARNING: [HLS 200-40] Cannot find design file 'vision_filter.cpp'
+INFO: [HLS 200-10] Opening solution 'D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+WARNING: [HLS 200-40] Cannot find source file vision_filter.cpp; skipping it.
+ERROR: [HLS 200-70] Cannot find any design unit to elaborate.
+Error in linking the design.
+    while executing
+"source D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/csynth.tcl"
+    invoked from within
+"hls::main D:/FPGA-Projects/Sobel_Filter/vision_filter_HLS/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
